@@ -1,0 +1,102 @@
+.skills{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    text-align: center;
+    position: relative;
+}
+
+.titles-skills{
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px rgb(255, 162, 0);
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.containercards{
+    width: 45vw;
+    min-width: 280px;
+    max-width: 380px;
+    min-height: 500px;
+    position: relative;
+    margin: 2.5vw;
+    cursor: pointer;
+}
+
+.containercards:hover > div[class*="Complete-card"]{
+    transform: rotateY(180deg);
+}
+
+div[class*="Complete-card"]{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+div[class*="frente"], div[class*="verso"]{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+div[class*="frente"]{
+    border: inset rgb(104, 92, 40) 3px;
+    background-image: linear-gradient(to left, #fff098, #7a651a);
+}
+
+div[class*="verso"]{
+    border: inset rgb(104, 92, 40) 3px;
+    background-image: linear-gradient(to right, #fff098, #7a651a);
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    text-align: left;
+}
+
+.VersP-TitlePrincipal{
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 10px;
+    color: rgb(7, 7, 7);
+    font-weight: bolder;
+    text-shadow: 1px 2px 8px rgb(255, 162, 0);
+    font-family: 'Trebuchet MS', sans-serif;
+    width: 100%;
+}
+
+div[class*="Vers-"]{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-shadow: 1px 1px black;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .containercards{
+        margin: 10px 25vw;
+        height:68vw;
+        min-height: 350px;
+        max-height: 500px;
+        width: 50vw;
+        min-width: 40vw;
+        max-width: 50vw;
+    }
+    .VersP-TitlePrincipal{
+        font-size: 1.2rem;
+        letter-spacing: 4px;
+    }
+    div[class*="Vers-"]{
+        font-weight: 500;
+        font-size: 0.9rem;
+        text-shadow: 0px 0px black;
+    }
+}

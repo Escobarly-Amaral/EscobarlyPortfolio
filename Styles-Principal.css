@@ -1,0 +1,181 @@
+html, body{
+	font-size:1.25em;
+	color: #dfdfdf;
+	background-color: black; 
+	scroll-behavior: smooth;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.myname{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 1.2em;
+	text-shadow: -1px 1px 20px rgb(255, 255, 255);
+}
+.myname1{
+	color: rgb(255, 255, 255);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 1.6em;
+	padding-left: 1.6%;
+}
+.section-1 {
+	background: transparent;
+	z-index: 99999;
+}
+a.nav-item {
+	color: #dfdfdf;
+	text-shadow: 0px 0px 25px rgb(7, 177, 199);
+}
+
+a.nav-item:hover {
+	transition: .3s;
+	color: #fff;
+}
+
+.project-text {
+	text-align: justify;
+}
+
+.boxx {
+	width: 100vw;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.title {
+	color: #fff;
+	text-align: left;
+	font-weight: bolder;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin-bottom: 2rem;
+	text-shadow: -1px 1px 20px rgb(7, 177, 199);
+}
+
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.void-background {
+	background-color: transparent; 
+}
+
+@media screen and (max-width: 768px) {
+
+	.nav-toggle:hover {
+		background-color: transparent;
+	}
+
+	.nav-toggle span {
+		background-color: #dfdfdf;
+	}
+
+	.nav-toggle span:hover {
+		background-color: #fff;
+	}
+	.conteudo-Pricipal{
+		width: 100%;
+		background-size: 0% 0%;
+		font-size:1em;
+	}
+	.myname1{
+		display: none;
+	}
+	.myname::before{
+		color: rgb(255, 255, 255);
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 1.6em;
+		content: 'Escobarly Amaral';
+		background-position: 0% 0%;
+		background-size: calc(100% + 10px) 100%;
+		border-radius: 20%;
+		background-image: url("img/destaqueTitle.png");
+	}
+	.myname{
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		font-size: 1.4em;
+		text-shadow: -1px 1px 20px rgb(255, 255, 255);
+	}
+}
+
+.MainEffects{
+	display: flex;
+}
+.conteudo-Pricipal{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.conteudo-Pricipal{
+	position: relative;
+    width: 100%;
+	translate: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: fill;
+	background-position: center;
+    background-image: url("Imagens/eu5.jpg");
+	overflow: hidden;
+}
+.myname1{
+	background-repeat: no-repeat;
+	background-position: 0% 80%;
+    background-size: 63% 63%;
+    background-image: url("img/destaqueTitle.png");
+}
+
+.myname2{
+	color: rgb(255, 255, 255);
+	text-shadow: #4d4d4d -1px 1px 10px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+    background-size: 100% 100%;
+    background-image: url("Imagens/Stroke2.png");
+}
+
+#social{
+	display: flex;
+	width: 100vw;
+	height: 100%;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+.redessocial-container{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.RedesSociais{
+	display: inline-flex;
+	justify-content: space-around;
+	text-align: center;
+	width: 100%;
+	
+}
+
+.RedeSocialImg{
+	width: 4.5vw;
+	border-radius: 100%;
+	margin: 5%;
+}
+
+.RSLink div{
+	color: white;
+	text-decoration: none;
+	font-size: 2.6em;
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+
+.titleRS{
+	display: flex;
+	justify-content: center;
+}

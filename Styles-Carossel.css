@@ -79,9 +79,9 @@ display: none;
                 }
 @media screen and (max-width: 768px) {
     .SectionProjeto{
-        display: none;
+        display: flex;
     }
-    .SectionProjeto2{
+    /* .SectionProjeto2{
         display: flex;
         flex-direction: column;
     }
@@ -90,7 +90,7 @@ display: none;
         background-color: transparent;
         justify-content: center;
         text-align: center;
-    }
+    } 
     .mainP2{
         width: 100%;
         height: 100%;
@@ -101,29 +101,29 @@ display: none;
         overflow: visible;
         width: 100%;
         transition: transform 0.5s ease-in-out;
-    }
-    .controls{
+    }*/
+    /* .controls{
         position: absolute;
         width: 100%;
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
         justify-content: space-between;
-    }
-    .before{
+    } */
+    /* .before{
         cursor: pointer;
         clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
         background-color: rgb(207, 207, 207);
         width: 50px;
         position: relative;
         color: rgb(207, 207, 207);
-    }
-    .after{
+    } */
+    /* .after{
         cursor: pointer;
         clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
         background-color: rgb(207, 207, 207);
         width: 50px;
         position: relative;
         color: rgb(207, 207, 207);
-    }
+    } */
 }

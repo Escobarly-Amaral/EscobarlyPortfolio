@@ -30,12 +30,13 @@
 					<a class="nav-item" href="#habilidades">HABILIDADES</a>
 					<a class="nav-item" href="#social">REDES SOCIAS</a>
 				</div>
-				<span class="nav-toggle">
+				<span onclick="toggleNav()" class="nav-toggle">
 					<span></span>
 					<span></span>
 					<span></span>
 				</span>
 			</nav>
+			
 					
 			<!-- About Me -->
 			<section class="section section-1" id="about">
@@ -181,7 +182,7 @@
 						</div>
 						<div class="C1sub3">
 							<p class="clascificacao-skills">
-								<img src="img/estrela2.png">
+								<img src="img/estrela3.png">
 							</p>
 						</div>
 					</div>
@@ -313,7 +314,7 @@
 		<section id="social">
 				<div class="RedesSociais">
 					<div class="RS1">
-						<a class="RSLink" target="_blank" href="#">
+						<a class="RSLink" target="_blank" href="https://www.linkedin.com/in/escobarly-amaral">
 							<div><img class="RedeSocialImg" src="img/linkedin.png">Linkedin</div>
 						</a>
 					</div>
@@ -324,9 +325,25 @@
 					</div>
 				</div>
 		</section>	
+		<div class="menulateral">
+			<div class="menulateral-itens">
+				<label class="EA">Escobarly Amaral</label>
+				<a class="nav-item-lateral" href="#about">SOBRE</a>
+				<a class="nav-item-lateral" href="#projects">PROJETOS</a>
+				<a class="nav-item-lateral" href="#habilidades">HABILIDADES</a>
+				<a class="nav-item-lateral" href="#social">REDES SOCIAS</a>
+				<span onclick="toggleNav()" class="nav-toggle nav-toggle2">
+					<span></span>
+					<span></span>
+					<span></span>
+				</span>
+			</div>
+		</div>
 		
 		<!-- Scripts  -->	
-		<script src="Carrosel1.js"></script>
+		
 		<script src="Carrosel2.js"></script>
+		<script src="Carrosel1.js"></script>
+		<script src="controller.js"></script>
 	</body>	
 </html>
